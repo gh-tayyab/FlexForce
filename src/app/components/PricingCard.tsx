@@ -1,6 +1,12 @@
 import React from 'react'
 
-const PricingCard = ({ id, price, pricePlane }) => {
+
+interface IPrice {
+    id:number,
+    price: number,
+    pricePlane: string
+}
+const PricingCard = ({ id, price, pricePlane }:IPrice) => {
     return (
         <div key={id} className='group space-y-4 border-[1px] border-slate-300 hover:scale-105 transition duration-200 ease-linear hover:border-orange-400 cursor-pointer'>
             <div className='flex justify-center items-end px-20 py-6'>
