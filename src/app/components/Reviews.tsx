@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import img2 from "../images/img2.jpg"
 import img3 from "../images/img3.jpg"
@@ -7,7 +8,6 @@ import img6 from "../images/img6.jpg"
 import img7 from "../images/img7.jpeg"
 import Slider from "react-slick"
 import ReviewsCard from './ReviewsCard'
-
 
 
 const ReviewsData = [
@@ -88,7 +88,7 @@ function Reviews() {
       <div data-aos = "zoom-in" className='px-0 lg:px-32 wt-10 pt-4'>
         <Slider {...settings}>
           {ReviewsData.map((e)=>(
-            <ReviewsCard key={e.id} name={e.name} img={e.img}/>
+            <ReviewsCard id={e.id}  name={e.name} img={e.img}/>
           ))}
         </Slider>
       </div>

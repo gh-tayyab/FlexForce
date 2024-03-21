@@ -1,8 +1,17 @@
 import React from 'react'
 import { FaStar } from 'react-icons/fa'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
-const ReviewsCard =({id, name, img}) => {
+interface IReview 
+    {
+        id: number,
+        name: string,
+        img: StaticImageData
+    }
+
+
+ 
+const ReviewsCard =({id, name, img}:IReview) => {
   return (
     <div key={id} className='bg-slate-800'>
         <div className='flex items-center'>

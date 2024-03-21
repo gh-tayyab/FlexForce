@@ -9,6 +9,7 @@ function Hero() {
     <div className="min-h-screen flex flex-col md:flex-row justify-center items-center bg-slate-900 md:pt-10 pb-8">
         <div className='container text-white space-y-6'>
                 <Image
+                data-aos="fade-up"
                 src={bg}
                 alt='bg'
                 className='pt-4'

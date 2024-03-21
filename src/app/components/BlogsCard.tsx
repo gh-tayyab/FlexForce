@@ -1,7 +1,14 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 
-const BlogsCard = ({id, img, title, heading, duration}) => {
+interface IBlog {
+  id:number,
+  img:StaticImageData,
+  title:string,
+  heading: string,
+  duration: string
+}
+const BlogsCard = ({id, img, title, heading, duration}:IBlog) => {
   return (
     <div key={id} className='group bg-slate-950 cursor-pointer hover:bg-orange-500 transition-all'>
         <div>

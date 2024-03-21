@@ -32,13 +32,13 @@ const BlogsData = [
 const Blogs = () => {
   return (
     <div className='min-h-screen flex flex-col justify-center items-center bg-slate-800 text-white py-8 overflow-hidden'>
-        <h3 className='text-center text-lg font-bold text-orange-500 uppercase tracking-[4px]'>Daily Blogs</h3>
-        <h1 className='text-center text-4xl font-bold pt-3'>Our Latest News</h1>
+        <h3 data-aos="fade-up" className='text-center text-lg font-bold text-orange-500 uppercase tracking-[4px]'>Daily Blogs</h3>
+        <h1 data-aos="fade-up" className='text-center text-4xl font-bold pt-3'>Our Latest News</h1>
 
-        <div className='container grid grid-col-1 md:grid-cols-3 lg:grid-col-3 gap-10 mt-10'>
+        <div data-aos="fade-up" className='container grid grid-col-1 md:grid-cols-3 lg:grid-col-3 gap-10 mt-10'>
             {BlogsData.map((ele)=>(
                 <BlogsCard 
-                key={ele.id}
+                id={ele.id}
                 img={ele.img}
                 title={ele.title}
                 heading={ele.heading}

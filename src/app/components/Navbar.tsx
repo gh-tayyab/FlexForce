@@ -46,7 +46,7 @@ function Navbar() {
 
 
   return (
-    <header className='bg-slate-950 text-white'>
+    <header className='bg-slate-950 shadow-md text-white backdrop-blur-lg'>
       <nav className='container flex items-center justify-between py-3'>
         <div>
           <Link href={"/"}>
