@@ -21,7 +21,7 @@ const Navbar = () => {
            <Link href='/About' className="hover:text-orange-500"> <li>About</li></Link>
            <Link href='/Reviews' className="hover:text-orange-500"> <li>Reviews</li></Link>
            <Link href='/Pricing' className="hover:text-orange-500"> <li>Pricing</li></Link>
-           <Link href='/Blog' className="hover:text-orange-500"> <li>Blog</li></Link>
+           <Link href='/Blogs' className="hover:text-orange-500"> <li>Blogs</li></Link>
         </ul>
         
         <div  className="lg:hidden md:flex flex-col justify-end  text-xl">
@@ -36,7 +36,7 @@ const Navbar = () => {
            <Link href='/About' className="hover:text-orange-500"> <li>About</li></Link>
            <Link href='/Reviews' className="hover:text-orange-500"> <li>Reviews</li></Link>
            <Link href='/Pricing' className="hover:text-orange-500"> <li>Pricing</li></Link>
-           <Link href='/Blog' className="hover:text-orange-500"> <li>Blog</li></Link>
+           <Link href='/Blogs' className="hover:text-orange-500"> <li>Blogs</li></Link>
         </ul>
             </div>
 
