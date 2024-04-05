@@ -4,7 +4,7 @@ import img1 from "../images/img1.jpg"
 
 function About() {
   return (
-    <div className='bg-slate-800 text-white py-10'>
+    <div className='bg-neutral-900 text-white py-10'>
         <div className='min-h-screen container flex flex-col md:flex-row justify-center items-center gap-10'>
         <div className='w-full md:w-2/4 space-y-6'>
         <h3 data-aos="fade-up" className='text-xl font-bold text-orange-500 uppercase tracking-[4px]'>About FlexForce</h3>

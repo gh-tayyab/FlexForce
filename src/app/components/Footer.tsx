@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md'
 import { IoMdCall } from 'react-icons/io'
 const Footer = () => {
   return (
-    <footer className='bg-slate-950 text-white pt-8 md:pt-0'>
+    <footer className='bg-neutral-900 border-t-2 border-neutral-800 text-white pt-8 md:pt-0'>
         <div className='flex flex-col md:flex-row justify-center gap-5 mg:gap-24 p-8 md:px-32 px-5'>
             <div className='w-full md:w-1/4 space-y-4'>
                 <span className='text-3xl font-bold'>Flex</span>

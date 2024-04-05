@@ -31,7 +31,7 @@ const BlogsData = [
 
 const Blogs = () => {
   return (
-    <div className='min-h-screen flex flex-col justify-center items-center bg-slate-800 text-white py-8 overflow-hidden'>
+    <div className='min-h-screen flex flex-col justify-center items-center bg-neutral-900 text-white py-8 overflow-hidden'>
         <h3 data-aos="fade-up" className='text-center text-lg font-bold text-orange-500 uppercase tracking-[4px]'>Daily Blogs</h3>
         <h1 data-aos="fade-up" className='text-center text-4xl font-bold pt-3'>Our Latest News</h1>
 

@@ -10,7 +10,7 @@ interface IBlog {
 }
 const BlogsCard = ({id, img, title, heading, duration}:IBlog) => {
   return (
-    <div key={id} className='group bg-slate-950 cursor-pointer hover:bg-orange-500 transition-all'>
+    <div key={id} className='group bg-neutral-900 cursor-pointer hover:bg-orange-500 transition-all'>
         <div>
             <Image src={img} alt='img'/>
         </div>

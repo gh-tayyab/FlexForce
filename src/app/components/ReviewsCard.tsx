@@ -13,7 +13,7 @@ interface IReview
  
 const ReviewsCard =({id, name, img}:IReview) => {
   return (
-    <div key={id} className='bg-slate-800'>
+    <div key={id} className='bg-neutral-900'>
         <div className='flex items-center'>
             <div className='w-3/4 py-3 space-y-3 px-3'>
                 <div>

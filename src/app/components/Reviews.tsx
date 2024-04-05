@@ -82,7 +82,7 @@ function Reviews() {
       ],
     };
   return (
-    <div className='bg-slate-950 text-white py-14'>
+    <div className='bg-neutral-900 text-white py-14'>
       <h3 data-aos= "fade-up" data-aos-delay = "600" className='text-center text-lg font-bold text-orange-500 uppercase tracking-[4px]'>Our Testimonials</h3>
       <h1 data-aos= "fade-up" data-aos-delay = "1000" className='text-center text-4xl font-bold pt-3'>What Clients Say</h1>
       <div data-aos = "zoom-in" className='px-0 lg:px-32 wt-10 pt-4'>
